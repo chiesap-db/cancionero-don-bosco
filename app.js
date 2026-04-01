@@ -1,8 +1,6 @@
 // Base de datos de las canciones (Añade el resto siguiendo este formato)
 const songs = [
     {
-        const songs = [
-    {
         title: "Dulce Doncella",
         content: `[DO] [MI7] [LAm]
 Estamos vivos y vivimos
@@ -893,8 +891,6 @@ Y es algo tan raro
 Sentir que la vida acelera
 Y que lo más preciado...`
     }
-];
-    // Agrega aquí las demás canciones separadas por comas...
 ];
 
 // Variables de estado
