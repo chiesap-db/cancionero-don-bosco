@@ -186,12 +186,15 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     font-size: var(--base-font-size);
-    line-height: 2;
-    white-space: pre-wrap;
-    overflow-x: auto;
+    line-height: 1.5;
+    /* Las siguientes 3 líneas son la magia para alinear: */
+    white-space: pre; 
+    overflow-x: auto; 
+    font-family: 'Courier New', Courier, monospace; 
 }
 
 .chord {
     color: var(--chord-color);
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
